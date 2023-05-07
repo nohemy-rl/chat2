@@ -6,6 +6,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## Instrucciones de configuración
+Una vez clonado el proyecto, debemos correr
+* npm run dev
+* php artisan websocket:serve    
+* npm run watch
+
+Instrucciones de uso
+1. Registrar al menos 2 usuarios
+2. Ingresar el id del Usuario con el que queremos chater, esto crea la sala para ello ejecutamos en navegador la siguiente ruta host/chat/with/idUsuario
+3. Una vez que ingresamos el idUsuario con quien deseamos chatear el sistema nos redirigirá al idSala donde chatearemos
+4. Los 2 usuarios que desean chatear deben tener asignada la misma sala, Ej: host/chat/1
+5. Cuando los usuarios no están en una sala se muestran como offline y cuando ingresan a una sala se muestran online
 
 ## About Laravel
 
